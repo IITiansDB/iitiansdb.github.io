@@ -1,0 +1,92 @@
+body{
+	font-family: "segoe ui";
+}
+.split {
+  height: 100%;
+  width: 85%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+/* Control the left side */
+.left {
+  left: 10px;
+}
+
+/* Control the right side */
+.right {
+  right: 0px;
+}
+
+.head{
+background-color: #3b5998;
+color: white;
+margin: 18px 18px 0px 18px;
+border-radius: 5px 5px 0px 0px;
+}
+
+.title{
+font-size: 30px;
+font-weight: 700;
+margin-left: 15px; 
+}
+
+.left_head{
+	position: absolute;
+	word-spacing: 10px;
+	top: 30px;
+	right:45px;
+	font-size: 12px;
+}
+
+.sub-bar{
+background-color: #6d84b4;
+color: white;
+margin: 0px 18px 0px 18px;
+font-size: 20px;
+font-weight: 750;
+border-bottom: 1px solid #3b5998;
+}
+
+.sub-bar-span{
+	margin-left: 15px;
+}
+
+.anc, .anch{
+	text-decoration: none;
+}
+
+.anc:link,.anc:visited,.anc:hover,.anc:active {
+  color: white;
+}
+
+.anc:link,.anc:hover,.anc:active {
+  color: #989fbb;
+}
+
+.container{
+	border-bottom: 2.5px solid #3b5998;
+	border-right: 1px solid #e1e6ef;
+	border-left: 1px solid #e1e6ef;
+	margin: 0px 18px 0px 18px;
+	height: 400px;
+}
+
+.main-text-hlt{
+	font-size: 13px;
+	font-weight: 900;
+    padding: 25px 40px 0px 40px;
+}
+
+.main-text{
+	font-size: 12px;
+	padding: 0px 40px 0px 40px;
+}
+
+.main-text-ul{
+	font-size: 12px;
+	padding: 0px 40px 0px 70px;
+}
