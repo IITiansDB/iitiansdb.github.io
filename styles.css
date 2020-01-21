@@ -68,22 +68,33 @@ border-bottom: 1px solid #3b5998;
 }
 
 .container{
+	display: flex;
 	border-bottom: 2.5px solid #3b5998;
 	border-right: 1px solid #e1e6ef;
 	border-left: 1px solid #e1e6ef;
 	margin: 0px 18px 0px 18px;
-	height: 400px;
+	height: 600px;
+}
+
+#container1{
+	margin: 0px 10px 30px 20px;
+}
+
+#container2{
+	margin: 0px 18px 0px 40px;
+	border-left: 1px solid #e1e6ef;
+
 }
 
 .main-text-hlt{
 	font-size: 13px;
 	font-weight: 900;
-    padding: 25px 40px 0px 40px;
+    padding: 25px 40px 0px 50px;
 }
 
 .main-text{
 	font-size: 12px;
-	padding: 0px 40px 0px 40px;
+	padding: 0px 40px 0px 50px;
 }
 
 .main-text-ul{
